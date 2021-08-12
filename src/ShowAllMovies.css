@@ -1,0 +1,46 @@
+@media only screen and (min-width: 768px) {
+  .mov_poster {
+    width: 400px;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 70px;
+    transition: transform 470ms;
+  }
+
+  .mov_poster:hover {
+    transform: scale(1.33);
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .mov_poster {
+    width: 400px;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 70px;
+    transition: transform 470ms;
+  }
+
+  .mov_poster:hover {
+    transform: scale(1.33);
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .mov_poster {
+    width: 330px;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 70px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    transition: transform 470ms;
+  }
+
+  .mov_poster:hover {
+    transform: scale(1.33);
+    cursor: pointer;
+  }
+}

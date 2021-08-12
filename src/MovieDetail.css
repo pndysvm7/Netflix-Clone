@@ -1,0 +1,144 @@
+@media only screen and (min-width: 768px) {
+  .poster {
+    object-fit: contain;
+    height: 700px;
+
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .poster--fadeBottom {
+    height: 8.5rem;
+    padding-top: 450px;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+  }
+
+  .poster_contents {
+    margin-left: 30px;
+    padding-top: 250px;
+    height: 190px;
+  }
+
+  .poster_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .poster {
+    object-fit: contain;
+    height: 670px;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+    background-position: center center;
+  }
+
+  .poster--fadeBottom {
+    height: 7.9rem;
+    padding-top: 680px;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+  }
+
+  .poster_contents {
+    position: absolute;
+    margin-left: 30px;
+    top: 350px;
+    height: 190px;
+  }
+
+  .poster_title {
+    font-size: 2rem;
+    font-weight: 650;
+    padding-bottom: 0.3rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .poster {
+    object-fit: contain;
+    height: 700px;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+
+    background-position: center center;
+  }
+
+  .poster--fadeBottom {
+    height: 4.9rem;
+    padding-top: 700px;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+  }
+
+  .poster_contents {
+    position: absolute;
+    margin-left: 30px;
+    top: 300px;
+    height: 190px;
+  }
+
+  .poster_title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+    margin-bottom: 25px;
+  }
+}
+
+.poster_description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+  margin-top: 30px;
+}
+
+.poster_description:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.poster_button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  transition: transform 470ms;
+}
+
+.poster_button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+  transform: scale(1.15);
+}
